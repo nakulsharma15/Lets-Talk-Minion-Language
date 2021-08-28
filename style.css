@@ -1,0 +1,30 @@
+textarea{
+  
+    width: 80%;
+    height: 20vh;
+    margin: 1 rem;
+    display: block;
+    margin-left: 1%;
+
+}
+textarea::placeholder{
+     font-size: 25px;
+}
+
+#output {
+
+    border: 1px solid black;
+    width: 80%;
+    height: 20vh;
+    margin: 1 rem;
+    display: block;
+    padding: 1rem;
+}
+
+#btn-translate {
+
+margin-left: 1%;
+background-color: yellow;
+
+}
+
