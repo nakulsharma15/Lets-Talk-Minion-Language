@@ -1,14 +1,33 @@
+
+body {
+    margin: 0;
+    font-family: 'Kalam', cursive;
+    color: #333333;
+}
 textarea{
   
+    border: 1px solid black;
     width: 80%;
     height: 20vh;
-    margin: 1 rem;
+    margin: 1rem;
     display: block;
     margin-left: 1%;
+    padding: 0.5rem;
+    font-size: 25px;
+    font-family: 'Kalam', cursive;
 
 }
 textarea::placeholder{
      font-size: 25px;
+}
+
+#heading {
+    
+    display: block;
+    text-align: center;
+    background-color: yellow;
+    padding: 2rem;
+    height: 4rem;
 }
 
 #output {
@@ -16,15 +35,20 @@ textarea::placeholder{
     border: 1px solid black;
     width: 80%;
     height: 20vh;
-    margin: 1 rem;
+    margin: 1rem;
+    margin-left: 1%;
     display: block;
-    padding: 1rem;
+    padding: 0.5rem;
+    font-size: 25px;
 }
 
 #btn-translate {
 
 margin-left: 1%;
+height: 5vh;
 background-color: yellow;
+font-family: 'Kalam', cursive;
+font-size: large;
 
 }
 
