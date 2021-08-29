@@ -8,6 +8,10 @@ function getTranslationURL(text) {
    return serverURL + "?text=" + text;
 }
 
+function errorHandler(error) {
+   alert("Error Occurred, Please try again after some time!")
+}
+
 function clickEventHandler(){
   
   var inputTxt = txtInput.value;
@@ -19,7 +23,7 @@ function clickEventHandler(){
      outputDiv.innerText = translatedText;
   })
 
-
+  .catch(errorHandler())
 };
 
 btnTranslate.addEventListener("click",clickEventHandler);

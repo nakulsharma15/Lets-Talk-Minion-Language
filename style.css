@@ -11,7 +11,7 @@ textarea{
     height: 20vh;
     margin: 1rem;
     display: block;
-    margin-left: 1%;
+    margin-left: 7%;
     padding: 0.5rem;
     font-size: 25px;
     font-family: 'Kalam', cursive;
@@ -32,11 +32,12 @@ textarea::placeholder{
 
 #output {
 
+
     border: 1px solid black;
     width: 80%;
     height: 20vh;
     margin: 1rem;
-    margin-left: 1%;
+    margin-left: 7%;
     display: block;
     padding: 0.5rem;
     font-size: 25px;
@@ -44,7 +45,8 @@ textarea::placeholder{
 
 #btn-translate {
 
-margin-left: 1%;
+margin-left: 7%;
+margin-top: 2rem;
 height: 5vh;
 background-color: yellow;
 font-family: 'Kalam', cursive;
