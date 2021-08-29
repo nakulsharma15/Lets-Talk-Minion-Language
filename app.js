@@ -23,7 +23,7 @@ function clickEventHandler(){
      outputDiv.innerText = translatedText;
   })
 
-  .catch(errorHandler())
+  .catch(errorHandler)
 };
 
 btnTranslate.addEventListener("click",clickEventHandler);
