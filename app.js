@@ -9,7 +9,7 @@ function getTranslationURL(text) {
 }
 
 function errorHandler(error) {
-   alert("Error Occurred, Please try again after some time!")
+   alert("Error Occurred, Please try after some time.")
 }
 
 function clickEventHandler(){
